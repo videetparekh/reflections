@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The difference function is very useful in scanning code for errors as it reduces code down to only changes in versions of code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+This allows a programmer to identify long-term and short-term changes to a file.
+It also allows the programmer to fallback to stable versions.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+Sometimes, it is easy to forget to save a file, or to break code that you've been working on for hours.
+Manual commits offer us better control over the changes being saved, 
+but are susceptible to human error.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+Git understands that in large systems, files tend to be interrelated.
+This means that a change in one file might affect another. Therefore, it saves files together.
+
+How can you use the commands git log and git diff to view the history of files?
+Log allows me to see all the previous versions of a file, with a user message
+Diff allows me to see difference between any two versions of a file.
+
+How might using version control make you more confident to make changes that could break something?
+Once I know that I have stable versions if something goes wrong, I'll be more willing to take risks while developing further. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would use git for error handling and version management in tandm with sharing of code
