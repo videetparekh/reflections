@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+A new .git folder containing metadata is created. This is useful as it allows smarter folders. Init is required to convert a folder into a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area provides a buffer to separate files tto be committed from files that may not necessarily require a commit.
