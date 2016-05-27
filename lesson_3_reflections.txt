@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+A remote repository lets me share my work with other contributors, and allows a more stable mthod of managing various types of code on cloud.
